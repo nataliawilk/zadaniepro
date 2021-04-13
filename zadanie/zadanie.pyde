@@ -17,13 +17,13 @@ def draw():
     n.endShape(CLOSE)
     shape(n, 110, 50)
     
-    
     if hex(get(mouseX, mouseY)) == 'FFFF8C1A':
         fill(255, 0, 255)
-        
+            
+    elif keyPressed:
+        if key == 'N' or key == 'W' :
+            fill(255, 0, 255)
     else:
          fill(255, 0, 0)
             
-    if keyPressed:
-        if key == 'N' or key == 'W' :
-            fill(255, 0, 255)
+# 1,75 pkt
